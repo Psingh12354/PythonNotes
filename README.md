@@ -68,3 +68,11 @@ You can verify the mutability of each of the data types in IDLE.
 
 Immutable: numeric, string, and tuple
 Mutable: list, dictionary
+
+### Escape Sequence
+
+You can use two or more specially designated characters within a string to format a string or perform a command. These characters are called escape sequences. An **escape sequence** in Python starts with a backslash (\). For example, \n is an escape sequence in which the common meaning of the letter n is literally escaped and given an alternative meaning - a new line.
+
+Displayed here are a few common escape sequences available in Python. You can try these out in IDLE or the Python prompt from the windows command prompt.
+
+![](https://github.com/Psingh12354/PythonNotes/blob/main/img1.PNG)
