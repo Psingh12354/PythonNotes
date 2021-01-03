@@ -347,3 +347,5 @@ You can modify the items within a list. Modifying a list means tochange an item,
 ('I', 'n', 't', 'e', 'r', 'n', 's', 'h', 'a', 'l', 'a')
 >>> 
 ```
+
+![](https://github.com/Psingh12354/PythonNotes/blob/main/img2.PNG)
