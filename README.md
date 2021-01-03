@@ -171,3 +171,179 @@ Operation Perform is-:
 - Symmetric difference
 
 
+- **Concatentaion(+)**
+
+**Appends the second list or tuple to the first.**
+
+The data types being concatenated should be of the same type. For example, you cannot concatenate a list and a tuple.
+
+**List**
+```
+>>> founders=["Iron Man", "Thor", "Ant-Man", "Hulk", "Wasp"]
+>>> recruits=["Captain America", "Hawkeye"]
+>>> founders + recruits
+['Iron Man', 'Thor', 'Ant-Man', 'Hulk', 'Wasp', 'Captain America', 'Hawkeye']
+>>> 
+```
+**Tuple**
+```
+>>> stark=("Ned", "Catelyn", "Brandon", "Sansa", "Arya", "Robb")
+>>> mormont=("Jeor", "Maege", "Jorah", "Lyanna")
+>>> stark + mormont
+('Ned', 'Catelyn', 'Brandon', 'Sansa', 'Arya', 'Robb', 'Jeor', 'Maege', 'Jorah', 'Lyanna')
+>>> 
+```
+
+- **Repetition(*)**
+
+**List**
+```
+>>> dna=["A", "G","T","C"]
+>>> dna * 3
+['A', 'G', 'T', 'C', 'A', 'G', 'T', 'C', 'A', 'G', 'T', 'C']
+>>> 
+```
+
+**Tuple**
+```
+>>> glucose=("C6", "H12", "O6")
+>>> glucose*6
+('C6', 'H12', 'O6', 'C6', 'H12', 'O6', 'C6', 'H12', 'O6', 'C6', 'H12', 'O6', 'C6', 'H12', 'O6', 'C6', 'H12', 'O6')
+>>> 
+```
+
+- **Slice[]**
+
+**Returns the item at given index in a list or tuple.**
+A negative index counts the position from right with the count starting at -1.
+
+Note: Recall that the index starts at 0.
+
+**List**
+```
+>>> founders=["Iron Man", "Thor", "Ant-Man", "Hulk", "Wasp"]
+>>> founders[3]
+'Hulk'
+>>> 
+>>> founders[-3]
+'Ant-Man'
+>>> 
+```
+**Tuple**
+```
+>>> stark=("Ned", "Catelyn", "Brandon", "Sansa", "Arya", "Robb")
+>>> stark[2]
+'Brandon'
+>>> 
+>>> stark[-1]
+'Robb'
+>>> 
+```
+- **Range Slice[:]**
+
+**List**
+```
+>>> avengers=["Iron Man", "Thor", "Ant-Man", "Hulk", "Wasp", "Captain America", "Hawkeye"]
+>>> avengers[2:5]
+['Ant-Man', 'Hulk', 'Wasp']
+>>> 
+>>> avengers[3:]
+['Hulk', 'Wasp', 'Captain America', 'Hawkeye']
+>>> 
+>>> avengers[:3]
+['Iron Man', 'Thor', 'Ant-Man']
+>>> 
+```
+
+**Tuple**
+```
+>>> got=("Ned", "Catelyn", "Brandon", "Sansa", "Arya", "Robb", "Jeor", "Maege", "Jorah", "Lyanna")
+>>> got[1:4]
+('Catelyn', 'Brandon', 'Sansa')
+>>> 
+>>> got[3:]
+('Sansa', 'Arya', 'Robb', 'Jeor', 'Maege', 'Jorah', 'Lyanna')
+>>> got[4:]
+('Arya', 'Robb', 'Jeor', 'Maege', 'Jorah', 'Lyanna')
+>>> 
+```
+- **In Membership**
+
+**List**
+```
+>>> avengers=["Iron Man", "Thor", "Ant-Man", "Hulk", "Wasp", "Captain America", "Hawkeye"]
+>>> "Wasp" in avengers
+True
+>>> 
+>>> "Black Widow" in avengers
+False
+>>> 
+```
+
+**Tuple**
+```
+>>> got=("Ned", "Catelyn", "Brandon", "Sansa", "Arya", "Robb", "Jeor", "Maege", "Jorah", "Lyanna")
+>>> "Arya" in got
+True
+>>> 
+>>> "Jon" in got
+False
+>>> 
+```
+
+- **not in membership**
+
+**List**
+```
+>>> avengers=["Iron Man", "Thor", "Ant-Man", "Hulk", "Wasp", "Captain America", "Hawkeye"]
+>>> "Wasp" not in avengers
+False
+>>> 
+>>> "Black Widow" not in avengers
+True
+>>> 
+```
+
+**Tuple**
+```
+>>> got=("Ned", "Catelyn", "Brandon", "Sansa", "Arya", "Robb", "Jeor", "Maege", "Jorah", "Lyanna")
+>>> "Arya" not in got
+False
+>>> 
+>>> "Jon" not in got
+True
+>>> 
+```
+
+Manipulating Lists
+
+You can modify the items within a list. Modifying a list means tochange an item, or add a new item, or remove an existing item. Here are some methods of the built-in List class that help in modifying lists. Read through each function and then try it out in IDLE.
+
+- append()
+- insert()
+- remove()
+- pop()
+- reverse()
+- sort()
+
+- **Tuple to List**
+```
+>>> t2=('python', 'java', 'c++')
+>>> list(t2)
+['python', 'java', 'c++']
+>>> s1="Internshala"
+>>> list(s1)
+['I', 'n', 't', 'e', 'r', 'n', 's', 'h', 'a', 'l', 'a']
+>>> 
+```
+
+- **List to Tuple**
+```
+>>> L2=['C++', 'Java', 'Python', 'Ruby']
+>>> tuple(L2)
+('C++', 'Java', 'Python', 'Ruby')
+>>> s1="Internshala"
+>>> tuple(s1)
+('I', 'n', 't', 'e', 'r', 'n', 's', 'h', 'a', 'l', 'a')
+>>> 
+```
