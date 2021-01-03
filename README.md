@@ -349,3 +349,27 @@ You can modify the items within a list. Modifying a list means tochange an item,
 ```
 
 ![](https://github.com/Psingh12354/PythonNotes/blob/main/img2.PNG)
+
+- Items()
+```
+>>> captains={'England': 'Root', 'Australia': 'Smith', 'India': 'Virat', 'Pakistan': 'Sarfraz'}
+>>> captains.items()
+dict_items([('England', 'Root'), ('Australia', 'Smith'), ('India', 'Virat'), ('Pakistan', 'Sarfraz')])
+>>> 
+```
+
+- Keys()
+```
+>>> captains={'England': 'Root', 'Australia': 'Smith', 'India': 'Virat', 'Pakistan': 'Sarfraz'}
+>>> captains.keys()
+dict_items(['England', 'Australia', 'India', 'Pakistan'])
+>>> 
+```
+
+- Values()
+```
+>>> captains={'England': 'Root', 'Australia': 'Smith', 'India': 'Virat', 'Pakistan': 'Sarfraz'}
+>>> captains.values()
+dict_items([Root', 'Smith', 'Virat', 'Sarfraz'])
+>>> 
+```
