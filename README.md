@@ -412,3 +412,13 @@ modified list inside function: [10, 20, 30, 40, 50, 60]
 list after passing to function: [10, 20, 30, 40, 50, 60]
 >>>
 ```
+
+![](https://github.com/Psingh12354/PythonNotes-Internshalla/blob/main/img4.PNG)
+
+![](https://github.com/Psingh12354/PythonNotes-Internshalla/blob/main/img5.PNG)
+
+![](https://github.com/Psingh12354/PythonNotes-Internshalla/blob/main/img6.PNG)
+
+![](https://github.com/Psingh12354/PythonNotes-Internshalla/blob/main/img%207.PNG)
+
+![](https://github.com/Psingh12354/PythonNotes-Internshalla/blob/main/Module.PNG)
